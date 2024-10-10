@@ -54,7 +54,7 @@ body{
     margin:auto;
 }
 .conteudo_principal_escrito_titulo{
-    font-size: 25px;
+    font-size: 25px ;
 }
 .conteudo_principal_escrito_contato{
     display: flex;
@@ -178,7 +178,7 @@ footer{
     .conteudo_principal{
         display:flex;
         flex-direction: column-reverse;
-        height:auto;
+       
         margin: auto;
     }
     .cabecalho_imagem{
@@ -198,6 +198,9 @@ footer{
     }
     .conteudo_principal_escrito{
         font-size: max(50%);
+    }
+    .conteudo_principal_escrito_titulo{
+        font-size: 20px;
     }
     .conteudo_principal_escrito_contato{
         display:flex;
