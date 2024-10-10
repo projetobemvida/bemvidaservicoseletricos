@@ -48,8 +48,8 @@ body{
     display: flex;
     flex-direction: column;
     gap:20px;
-    font-size: auto;
-    margin:5vw;
+    font-size: 100%;
+    margin:auto;
 }
 .conteudo_principal_escrito_titulo{
     font-size: 25px;
@@ -178,7 +178,7 @@ footer{
     }
     .cabecalho_imagem{
         display:flex;
-        width:100%;
+        width:50%;
     }
         .cabecalho_menu{
         display:none;
@@ -204,3 +204,33 @@ footer{
  }
  
 
+@media (max-width:500px){
+body{
+    display:block;
+}
+.conteudo_beneficios_titulo{
+    font-size: 100%;
+}
+.conteudo_beneficios_lista{
+    display:flex;
+    flex-direction: column;
+}
+.conteudo_beneficios{
+
+}
+.conteudo_profissional{
+    display:flex;
+    flex-direction: column;
+}
+.conteudo_profissional_escrito{
+    display:flex;
+    font-size: 70%;
+    margin:auto;
+}
+.conteudo_profissional_perfil_texto{
+    font-size:70%;
+}
+
+.conteudo_rodape{
+    font-size: 50%;}
+} 
