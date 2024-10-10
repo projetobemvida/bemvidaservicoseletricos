@@ -55,6 +55,7 @@ body{
 }
 .conteudo_principal_escrito_titulo{
     font-size: 25px ;
+    margin:auto;
 }
 .conteudo_principal_escrito_contato{
     display: flex;
