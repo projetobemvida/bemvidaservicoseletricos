@@ -217,8 +217,13 @@ footer{
 body{
     display:100%;
 }
+
 .conteudo_principal_foto{
     width:50%;
+}
+.conteudo_principal_escrito{
+    display:flex;
+    align-items: center;
 }
 
 .conteudo_beneficios_titulo{
@@ -229,6 +234,8 @@ body{
     flex-direction: column;
 }
 .conteudo_beneficios{
+    
+
 
 }
 .conteudo_profissional{
